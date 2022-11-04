@@ -1,0 +1,14 @@
+type Todo2 @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  title: String
+  content: String
+}
+
+type UserProfile @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  first_name: String
+  last_name: String
+  created: AWSDate
+  status: Int
+}
+ 
