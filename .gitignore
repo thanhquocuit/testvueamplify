@@ -27,6 +27,8 @@ coverage
 *.sln
 *.sw?
 
+thanhquocuit_amplify_credentials-neverpublic.csv
+
 #amplify-do-not-edit-begin
 amplify/\#current-cloud-backend
 amplify/.config/local-*
@@ -47,4 +49,3 @@ amplifytools.xcconfig
 .secret-*
 **.sample
 #amplify-do-not-edit-end
-thanhquocuit_amplify_credentials-neverpublic.csv
