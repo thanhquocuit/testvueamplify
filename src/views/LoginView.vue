@@ -12,7 +12,6 @@ export default {
   methods: {
     DoLogin() {
       (async () => {
-        debugger;
         try {
           await DataStore.save(
             new UserProfile({
