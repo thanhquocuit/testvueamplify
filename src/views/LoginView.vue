@@ -16,9 +16,7 @@ export default {
           await DataStore.save(
             new UserProfile({
               first_name: this.username,
-              last_name: "Test",
-              created: "1970-01-01Z",
-              status: 1,
+              last_name: "Test"
             })
           );
 
