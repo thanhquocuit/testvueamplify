@@ -12,6 +12,7 @@
     }
   ],
   "compilerOptions": {
-    "skipLibCheck": true
-  }
+    "skipLibCheck": true,
+    "allowJs": true
+  },
 }
