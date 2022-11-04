@@ -24,24 +24,6 @@ export const schema = {
                     "isRequired": false,
                     "attributes": []
                 },
-                "status": {
-                    "name": "status",
-                    "isArray": false,
-                    "type": {
-                        "enum": "UserEnum"
-                    },
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "privilege": {
-                    "name": "privilege",
-                    "isArray": false,
-                    "type": {
-                        "enum": "PrivilegeEnum"
-                    },
-                    "isRequired": false,
-                    "attributes": []
-                },
                 "createdAt": {
                     "name": "createdAt",
                     "isArray": false,
@@ -151,23 +133,7 @@ export const schema = {
             ]
         }
     },
-    "enums": {
-        "PrivilegeEnum": {
-            "name": "PrivilegeEnum",
-            "values": [
-                "NONE",
-                "ADMIN"
-            ]
-        },
-        "UserEnum": {
-            "name": "UserEnum",
-            "values": [
-                "ACTIVE",
-                "DEACTIVE",
-                "DELETED"
-            ]
-        }
-    },
+    "enums": {},
     "nonModels": {},
     "codegenVersion": "3.3.1",
     "version": "876aee2e609cb7236abbbf4ab8e3807c"

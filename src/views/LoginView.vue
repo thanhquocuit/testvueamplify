@@ -1,6 +1,6 @@
 <script lang="ts">
 import { DataStore } from "@aws-amplify/datastore";
-import { UserEnum, UserProfile } from "../models";
+import { UserProfile } from "../models";
 
 export default {
   data() {
