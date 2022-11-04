@@ -3,8 +3,8 @@
   "cognitoConfig": {
     "identityPoolName": "testAuthIdentityPool",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "testvu2d25801c",
-    "userPoolName": "testvue",
+    "resourceNameTruncated": "testvu2e2c4f26",
+    "userPoolName": "testvueamplify",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -24,20 +24,16 @@
       "Requires Symbols",
       "Requires Uppercase"
     ],
-    "requiredAttributes": [
-      "email",
-      "family_name",
-      "given_name"
-    ],
+    "requiredAttributes": [],
     "aliasAttributes": [],
     "userpoolClientGenerateSecret": false,
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [],
     "userpoolClientReadAttributes": [],
-    "userpoolClientLambdaRole": "testvu2d25801c_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "testvu2e2c4f26_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "2d25801c",
-    "resourceName": "testvue",
+    "sharedId": "2e2c4f26",
+    "resourceName": "testvueamplify",
     "authSelections": "identityPoolAndUserPool",
     "serviceName": "Cognito",
     "usernameAttributes": [
