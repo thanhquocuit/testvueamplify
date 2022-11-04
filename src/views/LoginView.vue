@@ -1,6 +1,6 @@
 <script lang="ts">
 import { DataStore } from "@aws-amplify/datastore";
-import { UserEnum, UserProfile } from "../models";
+import { UserProfile } from "../models";
 
 export default {
   data() {
@@ -16,7 +16,7 @@ export default {
           await DataStore.save(
             new UserProfile({
               first_name: this.username,
-              last_name: "Test"
+              last_name: "TRU"
             })
           );
 
