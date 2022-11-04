@@ -1,20 +1,7 @@
-enum PrivilegeEnum {
-  NONE
-  ADMIN
-}
-
-enum UserEnum {
-  ACTIVE
-  DEACTIVE
-  DELETED
-}
-
 type UserProfile @model @auth(rules: [{allow: public}]) {
   id: ID!
   first_name: String
   last_name: String
-  status: UserEnum
-  privilege: PrivilegeEnum
 }
 
 type Todo @model @auth(rules: [{allow: public}]) {

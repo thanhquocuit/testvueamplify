@@ -2,17 +2,6 @@ import { ModelInit, MutableModel } from "@aws-amplify/datastore";
 // @ts-ignore
 import { LazyLoading, LazyLoadingDisabled } from "@aws-amplify/datastore";
 
-export enum PrivilegeEnum {
-  NONE = "NONE",
-  ADMIN = "ADMIN"
-}
-
-export enum UserEnum {
-  ACTIVE = "ACTIVE",
-  DEACTIVE = "DEACTIVE",
-  DELETED = "DELETED"
-}
-
 type UserProfileMetaData = {
   readOnlyFields: 'createdAt' | 'updatedAt';
 }
@@ -25,8 +14,6 @@ type EagerUserProfile = {
   readonly id: string;
   readonly first_name?: string | null;
   readonly last_name?: string | null;
-  readonly status?: UserEnum | keyof typeof UserEnum | null;
-  readonly privilege?: PrivilegeEnum | keyof typeof PrivilegeEnum | null;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
 }
@@ -35,8 +22,6 @@ type LazyUserProfile = {
   readonly id: string;
   readonly first_name?: string | null;
   readonly last_name?: string | null;
-  readonly status?: UserEnum | keyof typeof UserEnum | null;
-  readonly privilege?: PrivilegeEnum | keyof typeof PrivilegeEnum | null;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
 }

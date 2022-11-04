@@ -14,5 +14,5 @@
   "compilerOptions": {
     "skipLibCheck": true,
     "allowJs": true
-  },
+  }
 }

@@ -17,7 +17,5 @@ const { UserProfile, Todo } = initSchema(schema);
 
 export {
   UserProfile,
-  Todo,
-  PrivilegeEnum,
-  UserEnum
+  Todo
 };
